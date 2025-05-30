@@ -7,5 +7,7 @@ baseurl: "/DuKeM-CSGO"
 
 theme: jekyll-theme-minimal
 
-show_default_header: false
-show_default_footer: false
+seo:
+  json_ld: false
+  meta: false
+  images: false
