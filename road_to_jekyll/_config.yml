@@ -6,3 +6,6 @@ url: "https://dukem-csgo.github.io"
 baseurl: "/DuKeM-CSGO" 
 
 theme: jekyll-theme-minimal
+
+show_default_header: false
+show_default_footer: false
