@@ -7,12 +7,29 @@ title: Home
 <head>
     <meta charset="UTF-8">
     <title>{{ page.title }}</title>
+	<!--
 	<link rel="stylesheet" href="./assets/css/style.css"/>
+	-->
 </head>
 <body>
+<dir>
 {% highlight python %}
 def hello():
     print("Hello, GitHub Pages!")
 {% endhighlight %}
+</dir>
+<dir>
+{% highlight cpp %}
+template<typename T> 
+	requires std::copyable<T>
+[[nodiscard]] constexpr static auto
+std::vector::push_back
+(const T& value)
+const &
+noexcept
+-> void
+	requires std::is_nothrow_copy_constructible_v<T>
+{% endhighlight %}
+</dir>
 </body>
 </html>
