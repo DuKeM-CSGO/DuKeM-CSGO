@@ -1,0 +1,12 @@
+title: My Awesome Site
+email: your-email@example.com
+description: >- 
+  This is my awesome site built with Jekyll.
+baseurl: "" 
+url: "" 
+twitter_username: yourtwitter
+github_username: yourgithub
+
+theme: minima
+plugins:
+  - jekyll-feed
