@@ -11,3 +11,6 @@ plugins:
   - jekyll-multiple-languages
   - jekyll-paginate
   - jekyll-seo-tag
+
+markdown: kramdown
+highlighter: rouge
