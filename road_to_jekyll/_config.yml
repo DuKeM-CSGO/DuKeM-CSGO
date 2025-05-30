@@ -5,7 +5,7 @@ description: >-
 url: "https://dukem-csgo.github.io" 
 baseurl: "/DuKeM-CSGO" 
 
-theme: jekyll-theme-midnight
+#theme: jekyll-theme-midnight
 
 kramdown:
   input: GFM
